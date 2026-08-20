@@ -265,7 +265,7 @@ Si el test falló, encontraste el segundo bug. Buscá en `src/carrito.c` la cond
 Corregí el bug, volvé a compilar y verificá que todos los tests pasan.
 
 ```
-BUG_2_CORREGIDO=
+BUG_2_CORREGIDO=SI
 ```
 _(SI o NO)_
 
