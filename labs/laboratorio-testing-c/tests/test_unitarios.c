@@ -61,7 +61,7 @@ void test_carrito_lleno(void) {
     printf("\n[carrito lleno]\n");
     Carrito c;
     carrito_init(&c);
-    Producto p = {"Pan", 200, 1}
+    Producto p = {"Pan", 200, 1};
     carrito_agregar(&c, p);
     carrito_agregar(&c, p);
     carrito_agregar(&c, p);
