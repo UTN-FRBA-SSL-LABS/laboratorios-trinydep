@@ -13,9 +13,9 @@
 
 /* TODO: escribir test_compra_con_descuento() siguiendo la guia del .md */
 void test_compra_con_descuento(void) {
-    printf("\n[Compra con descuento]\n")
+    printf("\n[Compra con descuento]\n");
     Carrito c;
-    carrito_init(&0);
+    carrito_init(&c);
     Producto pan = {"Pan", 200, 3};
     Producto leche = {"Leche", 350, 2};
     carrito_agregar(&c, pan);
@@ -34,7 +34,7 @@ void test_compra_con_descuento(void) {
 int main(void) {
     printf("=== Tests de integracion ===");
     /* Descomentar a medida que agregues las funciones: */
-    /* test_compra_con_descuento();  */
+    test_compra_con_descuento();
     /* test_agregar_hasta_llenar();  */
     RESUMEN();
     return EXIT_CODE();
