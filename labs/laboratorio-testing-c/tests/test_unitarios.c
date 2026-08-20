@@ -57,6 +57,17 @@ void test_total_con_cantidad(void) {
  * ═══════════════════════════════════════════════════════════════════════════ */
 
 /* TODO: escribir test_carrito_lleno() */
+void test_carrito_lleno(void) {
+    printf("\n[carrito lleno]\n");
+    Carrito c;
+    carrito_init(&c);
+    Producto p = {"Pan", 200, 1}
+    carrito_agregar(&c, p);
+    carrito_agregar(&c, p);
+    carrito_agregar(&c, p);
+    carrito_agregar(&c, p);
+    ASSERT_IGUAL(0, carrito_agregar(&c, p));
+}
 
 /* ═══════════════════════════════════════════════════════════════════════════
  *  main
