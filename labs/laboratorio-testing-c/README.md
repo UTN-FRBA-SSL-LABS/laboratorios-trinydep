@@ -81,7 +81,7 @@ Vas a ver el carrito con tres productos y su total.
 > R: No coincide con el total que calcule.
 
 ```
-TOTAL_PROGRAMA=$2050
+TOTAL_PROGRAMA=2050
 ```
 _(escribí el número que imprimió el programa)_
 
@@ -381,12 +381,12 @@ _(nombre de la función con el segundo bug)_
 
 ### Checklist
 
-- [ ] Ambos bugs corregidos en `src/carrito.c`
-- [ ] Tests en `tests/test_unitarios.c` y `tests/test_integracion.c` completos y pasando
-- [ ] Salidas guardadas en `salidas/`
-- [ ] Respuestas y claves completadas en este archivo
-- [ ] `make test` pasa localmente
-- [ ] Todo pusheado a `main`
+- [x] Ambos bugs corregidos en `src/carrito.c`
+- [x] Tests en `tests/test_unitarios.c` y `tests/test_integracion.c` completos y pasando
+- [x] Salidas guardadas en `salidas/`
+- [x] Respuestas y claves completadas en este archivo
+- [x] `make test` pasa localmente
+- [x] Todo pusheado a `main`
 
 ### Verificación local
 
