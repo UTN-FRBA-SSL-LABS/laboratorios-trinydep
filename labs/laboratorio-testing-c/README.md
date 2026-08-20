@@ -359,7 +359,7 @@ _(SI si todas las líneas están cubiertas, NO si hay alguna con #####)_
 
 **P13** — En este laboratorio encontraste los bugs escribiendo tests. ¿Qué tiene de mejor este enfoque frente a mirar el código directamente?
 
-> R:
+> R: Este enfoque tiene la ventaja de detectar los bugs de forma automática. Permite comprobar casos concretos y comparar sus resultados más rápidamente, en lugar de solamente leer el código y tratar de identificar qué podría llegar a estar mal.
 
 **P14** — El test `test_total_precio_unitario` (cantidad = 1) **pasó** a pesar del bug, mientras que `test_total_con_cantidad` (cantidad = 2) **falló**. ¿Por qué el primer test no detectó el bug?
 
