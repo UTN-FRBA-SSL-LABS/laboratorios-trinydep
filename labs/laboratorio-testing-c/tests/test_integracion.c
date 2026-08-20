@@ -30,6 +30,16 @@ void test_compra_con_descuento(void) {
  * ═══════════════════════════════════════════════════════════════════════════ */
 
 /* TODO: escribir test_agregar_hasta_llenar() */
+void test_agregar_hasta_llenar(void) {
+   printf("\n[Agregar hasta llenar]\n");
+   Carrito c;
+   carrito_init(&c);
+   Producto p = {"Queso", 1500, 1};
+   carrito_agregar(&c, p);
+   carrito_agregar(&c, p);
+   carrito_agregar(&c, p);
+   carrito_agregar(&c, p);
+}
 
 int main(void) {
     printf("=== Tests de integracion ===");
