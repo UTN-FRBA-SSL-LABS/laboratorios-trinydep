@@ -40,6 +40,7 @@ void test_agregar_hasta_llenar(void) {
    carrito_agregar(&c, p);
    carrito_agregar(&c, p);
    ASSERT_IGUAL(MAX_ITEMS, carrito_contar(&c));
+   ASSERT_IGUAL(0, carrito_agregar(&c, p));
 }
 
 int main(void) {
