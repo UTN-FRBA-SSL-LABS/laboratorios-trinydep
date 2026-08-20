@@ -12,6 +12,18 @@
  * ═══════════════════════════════════════════════════════════════════════════ */
 
 /* TODO: escribir test_compra_con_descuento() siguiendo la guia del .md */
+void test_compra_con_descuento(void) {
+    printf("\n[Compra con descuento]\n")
+    Carrito c;
+    carrito_init(&0);
+    Producto pan = {"Pan", 200, 3};
+    Producto leche = {"Leche", 350, 2};
+    carrito_agregar(&c, pan);
+    carrito_agregar(&c, leche);
+    ASSERT_IGUAL(1300, carrito_total(&c));
+    ASSERT_IGUAL(1170, carrito_descuento(carrito_total(&c), 10));
+}
+
 
 /* ═══════════════════════════════════════════════════════════════════════════
  *  PARTE E — Disenar un test propio (ver README.md, Parte 9)
