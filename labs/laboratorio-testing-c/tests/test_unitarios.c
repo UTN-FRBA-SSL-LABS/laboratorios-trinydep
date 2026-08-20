@@ -80,7 +80,7 @@ int main(void) {
     /* Descomentar a medida que agregues las funciones: */
     test_total_precio_unitario();
     test_total_con_cantidad();   
-    /* test_carrito_lleno();         */
+    test_carrito_lleno();      
     RESUMEN();
     return EXIT_CODE();
 }
