@@ -363,15 +363,15 @@ _(SI si todas las líneas están cubiertas, NO si hay alguna con #####)_
 
 **P14** — El test `test_total_precio_unitario` (cantidad = 1) **pasó** a pesar del bug, mientras que `test_total_con_cantidad` (cantidad = 2) **falló**. ¿Por qué el primer test no detectó el bug?
 
-> R:
+> R: El primer test no detectó el bug ya que cuando la cantidad es 1, multiplicar el precio por la cantidad no modifica el resultado. Como el código con el bug solamente sumaba 350, de todas formas el resultado era correcto.
 
 ```
-BUG_EN_FUNCION_1=
+BUG_EN_FUNCION_1=carrito_total
 ```
 _(nombre de la función con el primer bug)_
 
 ```
-BUG_EN_FUNCION_2=
+BUG_EN_FUNCION_2=carrito_agregar
 ```
 _(nombre de la función con el segundo bug)_
 
