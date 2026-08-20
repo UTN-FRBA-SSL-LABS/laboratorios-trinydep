@@ -260,7 +260,7 @@ Si el test falló, encontraste el segundo bug. Buscá en `src/carrito.c` la cond
 
 **P9** — ¿Cuál es el operador incorrecto y cuál debería ser?
 
-> R:
+> R: El operador incorrecto es el <= de `c->cantidad <= MAX_ITEMS`, cuando debería ser un <.
 
 Corregí el bug, volvé a compilar y verificá que todos los tests pasan.
 
