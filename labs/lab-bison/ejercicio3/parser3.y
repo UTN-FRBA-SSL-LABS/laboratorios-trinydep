@@ -29,6 +29,9 @@ void yyerror(const char *msg) { fprintf(stderr, "Error: %s\n", msg); }
  * TODO 4 — Agregar: %right UMINUS       (mayor precedencia de todas)
  */
 
+%left '+' '-'     /* menor precedencia */
+
+
 %%
 
 input:
