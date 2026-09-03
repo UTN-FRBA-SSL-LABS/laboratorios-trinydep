@@ -31,7 +31,7 @@ void yyerror(const char *msg) { fprintf(stderr, "Error: %s\n", msg); }
 
 %left '+' '-'     /* menor precedencia */
 %left '*' '/'     /* mayor precedencia que la suma y la resta */
-
+%right POW        /* mayor precedencia que multiplicacion */
 
 %%
 
