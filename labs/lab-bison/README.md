@@ -1,6 +1,6 @@
 # Laboratorio: Introducción a Bison
 
-**Nombre:** ___________________________
+**Nombre:** Depiante, Trinidad Milagros
 
 ## Verificación y calificación
 
