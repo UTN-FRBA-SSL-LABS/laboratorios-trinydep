@@ -46,7 +46,7 @@ term:
 
 factor:
     NUM             { $$ = $1; }
-  | '(' exp ')'    { $$ = 0; /* TODO 4 — Reemplazar 0 por la expresión correcta */ }
+  | '(' exp ')'    { $$ = $2; /* TODO 4 — Reemplazar 0 por la expresión correcta */ }
   ;
 
 %%
