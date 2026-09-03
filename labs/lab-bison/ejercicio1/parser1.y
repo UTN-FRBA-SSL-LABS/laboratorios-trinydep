@@ -40,7 +40,7 @@ exp:
 
 term:
     term '*' factor { $$ = $1 * $3; /* TODO 2 — Reemplazar 0 por la expresión correcta */ }
-  | term '/' factor { $$ = 0; /* TODO 3 — Reemplazar 0 por la expresión correcta */ }
+  | term '/' factor { $$ = $1 / $3; /* TODO 3 — Reemplazar 0 por la expresión correcta */ }
   | factor          { $$ = $1; }
   ;
 
