@@ -34,7 +34,7 @@ linea:
 
 exp:
     exp '+' term   { $$ = $1 + $3; }          /* Ejemplo: suma ya implementada */
-  | exp '-' term   { $$ = 0; /* TODO 1 — Reemplazar 0 por la expresión correcta */ }
+  | exp '-' term   { $$ = $1 - $3; /* TODO 1 — Reemplazar 0 por la expresión correcta */ }
   | term           { $$ = $1; }
   ;
 
