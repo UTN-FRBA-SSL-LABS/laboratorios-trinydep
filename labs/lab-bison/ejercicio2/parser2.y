@@ -21,6 +21,7 @@ void yyerror(const char *msg) { fprintf(stderr, "Error: %s\n", msg); }
 /* Declaración de tokens con su tipo semántico */
 %token <int_val>  NUM             /* Ejemplo: NUM usa el miembro int_val */
 /* TODO 2 — Declarar IDENT con el tipo str_val: %token <str_val> IDENT  */
+%token <str_val> IDENT
 
 /* TODO 3 — Declarar el tipo de la producción 'item': %type <int_val> item */
 /*          (cambiar int_val por el miembro adecuado una vez que agregues str_val) */
