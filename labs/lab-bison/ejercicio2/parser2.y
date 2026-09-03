@@ -15,6 +15,7 @@ void yyerror(const char *msg) { fprintf(stderr, "Error: %s\n", msg); }
 %union {
     int  int_val;
     /* TODO 1 — Agregar un miembro para cadenas: char str_val[64]; */
+    char str_val[64];
 }
 
 /* Declaración de tokens con su tipo semántico */
