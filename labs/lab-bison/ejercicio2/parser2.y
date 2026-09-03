@@ -25,6 +25,7 @@ void yyerror(const char *msg) { fprintf(stderr, "Error: %s\n", msg); }
 
 /* TODO 3 — Declarar el tipo de la producción 'item': %type <int_val> item */
 /*          (cambiar int_val por el miembro adecuado una vez que agregues str_val) */
+%type <str_val> item
 
 %%
 
