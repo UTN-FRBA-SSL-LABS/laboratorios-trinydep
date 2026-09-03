@@ -36,7 +36,8 @@ input:
 
 item:
     NUM '\n'   { printf("Numero: %d\n", $1); }   /* Ejemplo: ya implementado */
-  | /* TODO 4 — Agregar regla para IDENT '\n' que imprima: "Identificador: <nombre>\n" */
+    /* TODO 4 — Agregar regla para IDENT '\n' que imprima: "Identificador: <nombre>\n" */
+  | IDENT '\n' {printf("Identificador: %s\n", $1)}
   ;
 
 %%
