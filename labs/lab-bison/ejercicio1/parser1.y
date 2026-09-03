@@ -29,7 +29,7 @@ input:
   ;
 
 linea:
-    exp '\n'   { /* TODO 5 — Imprimir el resultado: printf("= %d\n", $1); */ }
+    exp '\n'   { printf("= %d\n", $1); /* TODO 5 — Imprimir el resultado: printf("= %d\n", $1); */ }
   ;
 
 exp:
