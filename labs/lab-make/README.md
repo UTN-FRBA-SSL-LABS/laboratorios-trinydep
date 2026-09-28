@@ -661,9 +661,9 @@ P3=PARA_EVITAR_CONFLICTOS_DE_NOMBRES
 
 ### Checklist
 
-- [ ] Todos los `TODO` completados en los archivos `Makefile`
-- [ ] Preguntas P1, P2 y P3 respondidas en este `README.md`
-- [ ] `make test` pasa localmente
+- [X] Todos los `TODO` completados en los archivos `Makefile`
+- [X] Preguntas P1, P2 y P3 respondidas en este `README.md`
+- [X] `make test` pasa localmente
 - [ ] Todo pusheado a `main`
 
 ### Verificación local
